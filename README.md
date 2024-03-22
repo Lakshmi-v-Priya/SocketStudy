@@ -30,6 +30,8 @@ Socket programming involves the use of sockets, which serve as endpoints for com
 •	Socket programming involves a set of functions provided by the operating system or programming language to create, bind, listen, accept, connect, send, and receive data through sockets.
 •	Examples of functions include socket(), bind(), listen(), accept(), connect(), send(), and recv().
 
+
+
 ## Server-Side Operations:
 •	Servers create a socket using socket() and bind it to a specific IP address and port using bind().
 •	They then listen for incoming connections with listen() and accept connections with accept().
@@ -42,6 +44,8 @@ Socket programming involves the use of sockets, which serve as endpoints for com
 Clients create a socket using socket() and connect to a server using connect().
 After establishing a connection, clients can send and receive data using send() and recv().
 ![Screenshot 2024-03-22 200649](https://github.com/Lakshmi-v-Priya/SocketStudy/assets/151720706/72c2f99b-5e58-46c7-95ca-e9998e8a7f92)
+
+
 
 ## OUTPUT :
 # Client:
