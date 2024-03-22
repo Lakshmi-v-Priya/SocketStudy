@@ -1,6 +1,9 @@
+                                                                                                                                        
+# Ex.No:1a  			Study of Socket Programming
+
                                                                                                                                                              REG NO :212223220049
 																			     NAME : LAKSHMI PRIYA .V
-# Ex.No:1a  			Study of Socket Programming
+			
 ## Aim:  
 To perform a study on Socket Programming.
 
