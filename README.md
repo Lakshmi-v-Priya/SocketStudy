@@ -21,6 +21,7 @@ Socket programming involves the use of sockets, which serve as endpoints for com
 •	Socket programming typically follows the client-server model.
 •	The server listens for incoming connections from clients, while clients initiate connections to the server.
 •	Servers are passive, waiting for connection requests, and clients are active, initiating communication.
+
 3, TCP/IP Protocol:
 •	Transmission Control Protocol (TCP) and Internet Protocol (IP) are the foundational protocols for socket programming.
 •	TCP provides reliable, connection-oriented communication, ensuring data integrity and order.
@@ -36,15 +37,18 @@ Socket programming involves the use of sockets, which serve as endpoints for com
 •	Once a connection is establi
 •	shed, servers can send and receive data using send() and recv().
 ![Screenshot 2024-03-22 200701](https://github.com/Lakshmi-v-Priya/SocketStudy/assets/151720706/a78f07ad-fd5c-4faf-b7d5-af8b7085b9f9)
+
 ## Client –Server Operations
 Clients create a socket using socket() and connect to a server using connect().
 After establishing a connection, clients can send and receive data using send() and recv().
 ![Screenshot 2024-03-22 200649](https://github.com/Lakshmi-v-Priya/SocketStudy/assets/151720706/72c2f99b-5e58-46c7-95ca-e9998e8a7f92)
+
 ## OUTPUT :
 # Client:
 ![Screenshot 2024-03-22 200715](https://github.com/Lakshmi-v-Priya/SocketStudy/assets/151720706/d59646a7-5736-42c2-93c7-c4c31abaec6a)
 # server:
 ![Screenshot 2024-03-22 200725](https://github.com/Lakshmi-v-Priya/SocketStudy/assets/151720706/129679fc-1c2c-4e62-b6f7-63d3750091a2)
+
 ## Use Cases of Socket Programming:
 Socket programming finds applications in various domains, including web development, file transfer protocols, online gaming, and real-time communication. It is the foundation for protocols like HTTP, FTP, and SMTP, which power the internet. Socket programming enables the development of both server and client applications, facilitating the exchange of information between devices in a networked environment.
 
